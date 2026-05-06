@@ -57,7 +57,7 @@ keylogger-project/
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/keylogger-project.git
+git clone https://github.com/rafid-remal/keylogger-project.git
 cd keylogger-project
 ```
 ### 2. Install dependencies
