@@ -32,14 +32,23 @@ This is a **safe input logging demo project** designed for learning purposes:
 
 ## 📂 Project Structure
 
+```text
 keylogger-project/
-│── src/
-│ ├── main.py
-│ └── logger.py
-│── logs/
-│── README.md
-│── requirements.txt
-
+├── src/
+│   ├── main.py
+│   ├── logger.py
+│   ├── crypto.py
+│   ├── webapp.py
+│
+├── logs/
+│   ├── encrypted.log
+│
+├── templates/
+│   ├── index.html
+│
+├── README.md
+├── requirements.txt
+```
 ---
 
 
@@ -94,21 +103,4 @@ Log analytics system
 MIT License
 
 ---
-
-## ✅ Save it
-
-Press:
-- `CTRL + X`
-- `Y`
-- `Enter`
-
----
-
-## 🚀 Push to GitHub
-
-```bash id="p1l7q9"
-git add README.md
-git commit -m "Add README.md"
-git push origin main
-```
 
