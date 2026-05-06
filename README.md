@@ -79,7 +79,8 @@ python3 src/main.py
 
 ```bash
 > hello
-> test input
+> test_input
+
 > exit
 ```
 
