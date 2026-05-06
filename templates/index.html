@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Log Dashboard</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+            background: #f4f4f4;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        li {
+            padding: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h2>🔐 Encrypted Log Dashboard</h2>
+
+    <ul>
+        {% for log in logs %}
+            <li>{{ log }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+</body>
+</html>
